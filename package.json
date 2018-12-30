@@ -1,0 +1,22 @@
+{
+  "name": "clima-mundial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianPumaES6/clima-mundo.git"
+  },
+  "author": "Cristian A. Puma Villalva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianPumaES6/clima-mundo/issues"
+  },
+  "homepage": "https://github.com/CristianPumaES6/clima-mundo#readme",
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
+}
