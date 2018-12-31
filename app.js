@@ -1,4 +1,5 @@
 const lugar = require('./lugar/lugar');
+const clima = require('./clima/clima');
 
 const argv = require('yargs').options({
     direccion: {
@@ -10,8 +11,11 @@ const argv = require('yargs').options({
 
 
 
-lugar.getLugarLatLng(argv.direccion)
+/* lugar.getLugarLatLng(argv.direccion)
     .then(resp => {
         console.log(resp);
     })
-    .catch(e => console.log(e));
+    .catch(e => console.log(e));     */
+clima.getClima(9.9280694, -84.0907246)
+    .then(resp => console.log(resp))
+    .catch(e => console.log(e));    
